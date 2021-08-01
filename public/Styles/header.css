@@ -1,3 +1,35 @@
-.check {
-    background-color: red;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 40px;
+    width: 30%;
+}
+.logoText {
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navItems {
+    height: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.NIText {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 60px;
+    cursor: pointer;
 }
