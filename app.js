@@ -11,7 +11,7 @@ const port = 3000
 
 
 app.get('/', (req, res)=> {
-    res.render('Header', {Nasir: 'Dee Baba'})
+    res.render('about')
 })
 
 app.listen(port, ()=> {
