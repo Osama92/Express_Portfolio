@@ -1,0 +1,23 @@
+{
+  "name": "express_portfolio",
+  "version": "1.0.0",
+  "description": "My webpage to showcase my work.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osama92/Express_Portfolio.git"
+  },
+  "author": "Atobiloye Usama Adedayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Osama92/Express_Portfolio/issues"
+  },
+  "homepage": "https://github.com/Osama92/Express_Portfolio#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
