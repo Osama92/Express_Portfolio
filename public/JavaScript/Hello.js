@@ -21,4 +21,4 @@ function changeGreet() {
     }
 }
 
-changeGreet()
+changeGreet();

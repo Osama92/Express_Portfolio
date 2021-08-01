@@ -15,7 +15,6 @@ const port = 3000
 
 app.get('/', (req, res)=> {
     res.render('about')
-    console.log(req.body)
 })
 
 app.listen(port, ()=> {
