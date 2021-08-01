@@ -1,4 +1,4 @@
-const greetings = ['Hello', 'Salam', 'Hola', 'Ciao', 'Bonjour']
+const greetings = ['Hello', 'Salam', 'Hola', 'Ciao', 'Bonjour', 'Salut']
 const greetLenght = greetings.length
 const greetIndex = 0
 var timer = 0
