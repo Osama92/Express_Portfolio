@@ -12,6 +12,9 @@ h2 {
 p {
     font-family: 'Roboto', sans-serif;
 }
+img {
+    width: 10%;
+}
 .medium {
     font-size: 25px;
 }
@@ -31,9 +34,10 @@ p {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 .greeting {
-    width: 90%;
+    width: 80%;
     margin-top: 100px;
     z-index: 3;
 
