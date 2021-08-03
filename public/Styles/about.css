@@ -12,9 +12,7 @@ h2 {
 p {
     font-family: 'Roboto', sans-serif;
 }
-img {
-    width: 10%;
-}
+
 .medium {
     font-size: 25px;
 }
@@ -34,10 +32,9 @@ img {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
 }
 .greeting {
-    width: 80%;
+    width: 90%;
     margin-top: 100px;
     z-index: 3;
 
@@ -54,6 +51,27 @@ img {
     width: 100%;
 
 }
+.HireBtn {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border:none ;
+    border-radius: 5px 20px 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    background-color: #E4E4E4;
+    color: #000;
+    outline: none;
+}
+.HireBtn:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    transform: translateY(-7px);
+  }
 svg {
     width: 900px;
     height: 800px;
