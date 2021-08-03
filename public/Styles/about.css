@@ -23,7 +23,7 @@ img {
 }
 
 .about {
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -55,8 +55,8 @@ img {
 
 }
 svg {
-    width: 1000px;
-    height: 1000px;
+    width: 900px;
+    height: 800px;
     position: absolute;
     z-index: 1;
 }

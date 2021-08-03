@@ -1,4 +1,4 @@
-const greetings = ['Hello', 'Salam', 'Hola', 'Ciao', 'Bonjour', 'Salut']
+const greetings = ['Hello', 'Salam', 'Hola', 'Ciao', 'Bonjour', 'Nǐn hǎo','Konnichiwa','Olá',]
 const greetLenght = greetings.length
 const greetIndex = 0
 var timer = 0
@@ -21,4 +21,6 @@ function changeGreet() {
     }
 }
 
-changeGreet();
+setInterval(() => {
+    changeGreet();
+}, 100);
