@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .header {
     height: 80px;
     width: 100%;
@@ -10,19 +11,22 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   
-    
+
+
 }
+
 .logo {
     height: 40px;
     width: 30%;
 }
+
 .logoText {
     font-family: 'Pacifico', cursive;
     color: black;
     font-size: 20px;
     cursor: pointer;
 }
+
 .navItems {
     height: 40px;
     width: 60%;
@@ -30,8 +34,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    background: grey;
 }
+
 .NIText {
     font-family: 'Roboto', sans-serif;
     margin-left: 60px;
@@ -40,7 +44,8 @@
     letter-spacing: 0.15em;
     color: black;
 }
-.NIText:after {    
+
+.NIText:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -51,8 +56,14 @@
     background: #2EE59D;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-  }
-  .NIText:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
+}
+
+.NIText:hover:after {
+    width: 100%;
+    left: 0;
+}
+.LDtoggle i {
+    text-decoration: none;
+    margin-left: 60px;
+    cursor: pointer;
+}
