@@ -37,6 +37,7 @@
     cursor: pointer;
     text-decoration: none;
     letter-spacing: 0.15em;
+    color: black;
 }
 .NIText:after {    
     background: none repeat scroll 0 0 transparent;
