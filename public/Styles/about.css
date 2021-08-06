@@ -76,6 +76,16 @@ svg {
     height: 800px;
     position: absolute;
     z-index: 1;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
     
     
+}
+@keyframes bounce {
+    from {
+      margin-top: 0;
+    }
+    to {
+      margin-top: -15px;
+    }
 }
