@@ -7,4 +7,11 @@
 .footView {
     background: black;
     height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.fHolder {
+    background: grey;
+    width: 90%;
+    height: 100%;
 }
