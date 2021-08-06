@@ -15,10 +15,13 @@ const port = 3000
 
 
 app.get('/', (req, res)=> {
-    res.render('about')
+    res.render('Intro')
 })
 app.get('/project', (req, res)=> {
     res.render('project')
+})
+app.get('/about', (req, res)=> {
+    res.render('About')
 })
 
 app.listen(port, ()=> {

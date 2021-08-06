@@ -26,6 +26,8 @@
     color: black;
     font-size: 20px;
     cursor: pointer;
+    letter-spacing: 00.10em;
+    text-decoration: none;
 }
 
 .navItems {

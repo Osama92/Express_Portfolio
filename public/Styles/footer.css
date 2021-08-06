@@ -41,3 +41,10 @@
     color: #2EE59D;
     border-radius: 10px;
 }
+.email {
+    font-weight: 700;
+    cursor: pointer;
+}
+.email:hover {
+    color:#2EE59D;
+}
