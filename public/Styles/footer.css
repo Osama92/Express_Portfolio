@@ -1,11 +1,5 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 .footView {
-    background: black;
+    background: #A19882;
     height: 300px;
     display: flex;
     justify-content: center;
