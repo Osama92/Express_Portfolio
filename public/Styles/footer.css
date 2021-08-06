@@ -5,7 +5,28 @@
     justify-content: center;
 }
 .fHolder {
-    background: grey;
     width: 90%;
     height: 100%;
+}
+.FText {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+}
+.contactView {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.socialBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%;
+    align-items: center;
+}
+.fab {
+    margin-left: 30px;
+    cursor: pointer;
 }
