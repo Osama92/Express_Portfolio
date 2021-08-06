@@ -6,6 +6,7 @@ h2 {
 }
 p {
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.10em;
 }
 
 .medium {
@@ -60,6 +61,7 @@ p {
     background-color: #C2B8A3;
     color: #000;
     outline: none;
+    letter-spacing: 0.10em;
 }
 .HireBtn:hover {
     background-color: #2EE59D;
@@ -67,6 +69,7 @@ p {
     color: #fff;
     font-family: 'Pacifico', cursive;
     transform: translateY(-7px);
+    letter-spacing: 0.10em;
   }
 svg {
     width: 900px;

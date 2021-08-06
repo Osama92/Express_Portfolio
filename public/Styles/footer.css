@@ -18,6 +18,7 @@
     width: 100%;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .socialBtn {
     display: flex;
@@ -29,4 +30,14 @@
 .fab {
     margin-left: 30px;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #000;
+    outline: none;
+    box-shadow: none;
+}
+.fab:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #2EE59D;
+    border-radius: 10px;
 }
