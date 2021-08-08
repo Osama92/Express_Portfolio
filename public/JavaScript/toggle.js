@@ -8,7 +8,7 @@ const text = document.querySelectorAll('a');
 toggleBtn.className = light
 
 const colorChange = ()=> {
-    alert('Put color change function here!')
+    alert('Put color change function here! 5C3D2E, B85C38')
 }
 const toggler = document.getElementById("toggler").addEventListener('click', ()=> {
     
