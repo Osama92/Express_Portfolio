@@ -6,6 +6,10 @@ const introColor = document.querySelector('.about');
 const footerColor = document.querySelector('.footer');
 const text = document.querySelectorAll('a');
 toggleBtn.className = light
+
+const colorChange = ()=> {
+    alert('Put color change function here!')
+}
 const toggler = document.getElementById("toggler").addEventListener('click', ()=> {
     
     if
@@ -13,6 +17,7 @@ const toggler = document.getElementById("toggler").addEventListener('click', ()=
         toggleBtn.className = dark
         headerColor.style.transition = 'background 1s ease'
         headerColor.style.background = '#2D2424'
+        colorChange()
         
 
         for (let i = 0; i < text.length; i++) {
@@ -30,3 +35,4 @@ const toggler = document.getElementById("toggler").addEventListener('click', ()=
     }
 
 }) 
+
