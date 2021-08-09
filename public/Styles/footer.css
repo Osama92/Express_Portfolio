@@ -48,3 +48,7 @@
 .email:hover {
     color:#2EE59D;
 }
+.footerColor {
+    background: #B85C38;
+    transition: 'background 1s ease' ;
+}

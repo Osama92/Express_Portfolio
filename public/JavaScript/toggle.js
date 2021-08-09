@@ -8,10 +8,13 @@ const text = document.querySelectorAll('a');
 toggleBtn.className = light
 
 const colorChange = ()=> {
-    introColor.classList.add('test')
+    introColor.classList.add('introColor')
+    footerColor.classList.add('footerColor')
+    
 }
 const colorRemove = ()=> {
-    introColor.classList.remove('test')
+    introColor.classList.remove('introColor')
+    footerColor.classList.remove('footerColor')
 }
 const toggler = document.getElementById("toggler").addEventListener('click', ()=> {
     

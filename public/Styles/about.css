@@ -71,8 +71,9 @@ p {
     transform: translateY(-7px);
     letter-spacing: 0.10em;
   }
-  .test {
-      background: green;
+  .introColor {
+      background: #5C3D2E;
+      transition: 'background 1s ease' ;
   }
 svg {
     width: 900px;
