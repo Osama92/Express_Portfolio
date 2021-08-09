@@ -8,7 +8,10 @@ const text = document.querySelectorAll('a');
 toggleBtn.className = light
 
 const colorChange = ()=> {
-    alert('Put color change function here! 5C3D2E, B85C38')
+    introColor.classList.add('test')
+}
+const colorRemove = ()=> {
+    introColor.classList.remove('test')
 }
 const toggler = document.getElementById("toggler").addEventListener('click', ()=> {
     
@@ -28,6 +31,7 @@ const toggler = document.getElementById("toggler").addEventListener('click', ()=
     } else {
         toggleBtn.className = light
         headerColor.style.background = '#FEF7DC'
+        colorRemove()
         for (let i = 0; i < text.length; i++) {
             text[i].style.color = 'black';
             
