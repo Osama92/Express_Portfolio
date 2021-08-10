@@ -75,6 +75,10 @@ p {
       background: #5C3D2E;
       transition: 'background 1s ease' ;
   }
+  .headerColors {
+    background: #2D2424;
+    transition: 'background 1s ease' ;
+}
 svg {
     width: 900px;
     height: 800px;
