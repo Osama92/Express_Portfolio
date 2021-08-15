@@ -48,7 +48,7 @@ h1 {
     flex-direction: column;
 }
 #languages::before {
-    content: '➤ ';
+    content: '▶ ';
     color: #2EE59D;
     font-size: 10px;
 }
@@ -67,4 +67,7 @@ h1 {
     font-family: 'Pacifico', cursive;
     font-size: 20px;
     cursor: pointer;
+}
+.emphacy3:hover {
+    color:#2EE59D ;
 }
