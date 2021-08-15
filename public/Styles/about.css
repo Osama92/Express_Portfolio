@@ -20,7 +20,8 @@ p {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: #E6DDC6;
+    /* background: #E6DDC6; */
+    background: #fff;
 }
 .greet {
     font-family: 'Pacifico', cursive;
