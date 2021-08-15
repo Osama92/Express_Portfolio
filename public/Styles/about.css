@@ -75,3 +75,8 @@ h1 {
 .emphacy3 a:hover {
     color:#2EE59D ;
 }
+svg {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
