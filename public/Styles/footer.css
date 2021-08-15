@@ -1,5 +1,6 @@
 .footView {
-    background: #A19882;
+    /* background: #A19882; */
+    background: #fff;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -44,6 +45,7 @@
 .email {
     font-weight: 700;
     cursor: pointer;
+    width: min-content;
 }
 .email:hover {
     color:#2EE59D;
