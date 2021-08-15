@@ -59,14 +59,14 @@ p {
     cursor: pointer;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
-    background-color: #C2B8A3;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     outline: none;
     letter-spacing: 0.10em;
 }
 .HireBtn:hover {
     background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    box-shadow: 0px 15px 20px rgba(15, 15, 15, 0.4);
     color: #fff;
     font-family: 'Pacifico', cursive;
     transform: translateY(-7px);

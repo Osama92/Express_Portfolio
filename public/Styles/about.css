@@ -1,15 +1,70 @@
 h1 {
     font-family: 'Pacifico', cursive;
+    font-size: 40px;
 
 }
 .mySelf {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
 }
 .heading {
     width: 90%;
+    /* background: grey; */
+    display: flex;
+    flex-direction: row;
+}
+.text {
+    width: 50%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.text p {
+    line-height: 2em;
+}
+.profileImg {
+    width: 25%;
+    position: absolute;
+    z-index: 5;
     margin-top: 30px;
-    background: grey;
+    margin-left: 60px;
+    border-radius: 3%;
+}
+.profileImg2 {
+    width: 30%;
+    position: absolute;
+    z-index: 5;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 3%;
+}
+.languages {
+    width: 80%;
+    height: 10%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+#languages::before {
+    content: '➤ ';
+    color: #2EE59D;
+    font-size: 10px;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+}
+.image1 {
+    margin-top: 30px;
+    height: 50%;
+}
+.image2 {
+    height: 50%;
+}
+.emphacy3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    cursor: pointer;
 }

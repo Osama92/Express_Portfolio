@@ -35,6 +35,7 @@
     color: #000;
     outline: none;
     box-shadow: none;
+    z-index: 9;
 }
 .fab:hover {
     transform: translateY(-7px);
