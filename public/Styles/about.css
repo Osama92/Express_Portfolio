@@ -68,6 +68,10 @@ h1 {
     font-size: 20px;
     cursor: pointer;
 }
-.emphacy3:hover {
+.emphacy3 a {
+    text-decoration: none;
+    color: #000;
+}
+.emphacy3 a:hover {
     color:#2EE59D ;
 }
