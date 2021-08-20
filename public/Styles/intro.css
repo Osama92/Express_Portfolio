@@ -17,7 +17,7 @@ p {
 }
 
 .about {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     /* background: #E6DDC6; */
@@ -51,7 +51,7 @@ p {
 }
 .HireBtn {
     width: 200px;
-    height: 40px;
+    min-height: 40px;
     font-size: 20px;
     border:none ;
     border-radius: 5px 20px 5px;
@@ -81,8 +81,8 @@ p {
     transition: 'background 1s ease' ;
 }
 svg {
-    width: 900px;
-    height: 800px;
+    min-width: 40rem;
+    min-height: 20rem;
     position: absolute;
     z-index: 1;
     animation: bounce 1s infinite alternate;
