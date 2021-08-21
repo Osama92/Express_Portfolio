@@ -18,7 +18,7 @@ app.get('/project', (req, res)=> {
     res.render('project')
 })
 app.get('/about', (req, res)=> {
-    res.render('About')
+    res.render('about')
 })
 
 app.listen(process.env.PORT || port, ()=> {
