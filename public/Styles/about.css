@@ -5,11 +5,11 @@ h1 {
 }
 .mySelf {
     width: 100%;
-    height: 200vh;
+    min-height: 200vh;
     display: flex;
     justify-content: center;
 }
-.heading {
+.Aboutheading {
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -46,6 +46,7 @@ h1 {
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 #languages::before {
     content: '▶ ';
@@ -79,4 +80,10 @@ svg {
     position: absolute;
     width: 50%;
     height: 100%;
+}
+.mobilePicture {
+    height: 20%;
+    width: 100%;
+    background: #2EE59D;
+    display: none;
 }

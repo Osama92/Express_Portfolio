@@ -2,7 +2,7 @@ const greetings = ['Hello', 'Salam', 'Hola', 'Ciao', 'Bonjour', 'Nǐn hǎo','Kon
 const greetLenght = greetings.length
 const greetIndex = 0
 var timer = 0
-const message = document.querySelector('.greet')
+const message = document.querySelector('.greet');
 
 // const greet = greetings[Math.floor(Math.random()*lenght)]
 // var greet = greetings[greetIndex++ % greetLenght];

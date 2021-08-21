@@ -40,11 +40,13 @@ p {
 }
 .emphacy {
     font-family: 'Pacifico', cursive;
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2rem;
 }
 .emphacy2 {
     font-family: 'Pacifico', cursive;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2rem;
 }
 .hero {
     width: 100%;
@@ -85,6 +87,10 @@ svg {
     
     
 }
+.fa-bars {
+    display: none;
+    visibility: hidden;
+}
 @keyframes bounce {
     from {
       margin-top: 0;
@@ -94,7 +100,7 @@ svg {
     }
 }
 
-@media all and (min-width: 365px) and (max-width: 768px) {
+@media all and (min-width: 360px) and (max-width: 768px) {
     svg {
         min-width: 90vw;
         min-height: 50vw;
@@ -131,9 +137,60 @@ svg {
         margin-left: 20px;
         font-size: medium;
     }
-    .fas{
+    .fa-bars{
+        display: block;
+        visibility: visible;
         margin-right: 20px;
         font-size: larger;
         
     }
+    .contactView {
+        flex-direction: column;
+
+    }
+    .socialBtn {
+        min-width: 100%;
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+    .fab {
+        margin-right: 30px;
+        margin-left: 0;
+        align-items: none;
+    }
+    .Aboutheading {
+        display: flex;
+        flex-direction: column;
+    }
+    .text {
+        min-width: 100%;
+    }
+    .text p {
+        margin-top: 10px;
+    }
+    .image1 {
+        visibility: hidden;
+        display: none;
+    }
+    .image2 {
+        visibility: hidden;
+        display: none;
+    }
+    #svg {
+        visibility: hidden;
+        display: none;
+    }
+    
+    .mobilepic {
+        width: 50%;
+        border-radius: 5%;
+        margin-top: 10px;
+    }
+    .mobilePicture {
+        height: 100px;
+        width: 200px;
+        background: yellow !important;
+        display: flex;
+    }
+    
 }
