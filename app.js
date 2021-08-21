@@ -21,6 +21,6 @@ app.get('/about', (req, res)=> {
     res.render('About')
 })
 
-app.listen(port, ()=> {
+app.listen(process.env.PORT || port, ()=> {
     console.log('App runinng at port ' + `${port}`)
 })

@@ -51,7 +51,6 @@ const bar = document.querySelector('.fa-bars')
 const close = document.querySelector('.fa-times')
 
 bar.addEventListener('click', (e)=> {
-    console.log(e.target.className)
     switch (e.target.className) {
         case 'fas fa-bars':
             bar.className = 'fas fa-times'
