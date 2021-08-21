@@ -1,6 +1,6 @@
 .footView {
     /* background: #A19882; */
-    background: green;
+    background: #fff;
     min-height: 300px;
     display: flex;
     justify-content: center;
@@ -55,15 +55,15 @@
 .email:hover {
     color:#2EE59D;
 }
-@media all and (min-width: 375px) and (max-width: 768px) {
+@media all and (min-width: 360px) and (max-width: 768px) {
     .contactView {
         flex-direction: column;
-        /* min-height: 3rem; */
 
     }
     .socialBtn {
         min-width: 100%;
         justify-content: flex-start;
+        margin-top: 30px;
     }
     .fab {
         margin-right: 30px;

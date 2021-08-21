@@ -26,7 +26,8 @@ p {
     font-family: 'Pacifico', cursive;
 }
 .greetingView {
-    margin-top: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     min-width: 100%;
     display: flex;
     justify-content: center;
@@ -93,7 +94,7 @@ svg {
     }
 }
 
-@media all and (min-width: 375px) and (max-width: 768px) {
+@media all and (min-width: 365px) and (max-width: 768px) {
     svg {
         min-width: 90vw;
         min-height: 50vw;
@@ -104,4 +105,12 @@ svg {
         
         
     }
+    .greetingView {
+        margin-bottom: 6rem;
+        margin-top: 0;
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
 }
