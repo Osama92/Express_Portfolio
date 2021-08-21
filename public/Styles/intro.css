@@ -145,6 +145,12 @@ svg {
         font-size: larger;
         
     }
+    .fa-times {
+        display: block;
+        visibility: visible;
+        margin-right: 20px;
+        font-size: larger;
+    }
     .contactView {
         flex-direction: column;
 
