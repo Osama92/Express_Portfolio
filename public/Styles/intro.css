@@ -111,6 +111,7 @@ svg {
         
         
     }
+    
     .greetingView {
         margin-bottom: 6rem;
         margin-top: 0;
@@ -181,16 +182,7 @@ svg {
         display: none;
     }
     
-    .mobilepic {
-        width: 50%;
-        border-radius: 5%;
-        margin-top: 10px;
-    }
-    .mobilePicture {
-        height: 100px;
-        width: 200px;
-        background: yellow !important;
-        display: flex;
-    }
+    
+    
     
 }

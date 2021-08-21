@@ -81,9 +81,16 @@ svg {
     width: 50%;
     height: 100%;
 }
-.mobilePicture {
-    height: 20%;
-    width: 100%;
-    background: #2EE59D;
+.mobilepic {
+    width: 40%;
     display: none;
+}
+@media all and (min-width: 360px) and (max-width: 768px) {
+    .mobilepic {
+        width: 50%;
+        border-radius: 5%;
+        margin-top: 10px;
+        display: block;
+        
+    }
 }
