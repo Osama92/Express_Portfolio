@@ -20,14 +20,14 @@ p {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    /* background: #E6DDC6; */
     background: #fff;
 }
 .greet {
     font-family: 'Pacifico', cursive;
 }
 .greetingView {
-    width: 100%;
+    margin-top: 4rem;
+    min-width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -47,6 +47,7 @@ p {
 }
 .hero {
     width: 100%;
+    overflow: visible;
 
 }
 .HireBtn {
@@ -72,17 +73,10 @@ p {
     transform: translateY(-7px);
     letter-spacing: 0.10em;
   }
-  .introColor {
-      background: #5C3D2E;
-      transition: 'background 1s ease' ;
-  }
-  .headerColors {
-    background: #2D2424;
-    transition: 'background 1s ease' ;
-}
+  
 svg {
-    min-width: 40rem;
-    min-height: 20rem;
+    min-width: 50rem;
+    min-height: 50rem;
     position: absolute;
     z-index: 1;
     animation: bounce 1s infinite alternate;
@@ -96,5 +90,18 @@ svg {
     }
     to {
       margin-top: -15px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 768px) {
+    svg {
+        min-width: 90vw;
+        min-height: 50vw;
+        position: absolute;
+        z-index: 1;
+        animation: bounce 1s infinite alternate;
+        -webkit-animation: bounce 1s infinite alternate;
+        
+        
     }
 }

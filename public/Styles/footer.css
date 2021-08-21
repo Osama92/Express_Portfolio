@@ -1,17 +1,17 @@
 .footView {
     /* background: #A19882; */
-    background: #fff;
+    background: green;
     min-height: 300px;
     display: flex;
     justify-content: center;
 }
 .fHolder {
     width: 90%;
-    height: 100%;
+    min-height: 100%;
 }
 .FText {
     font-family: 'Pacifico', cursive;
-    font-size: xx-large;
+    font-size: 2rem;
 }
 .contactView {
     display: flex;
@@ -55,7 +55,20 @@
 .email:hover {
     color:#2EE59D;
 }
-.footerColor {
-    background: #B85C38;
-    transition: 'background 1s ease' ;
+@media all and (min-width: 375px) and (max-width: 768px) {
+    .contactView {
+        flex-direction: column;
+        /* min-height: 3rem; */
+
+    }
+    .socialBtn {
+        min-width: 100%;
+        justify-content: flex-start;
+    }
+    .fab {
+        margin-right: 30px;
+        margin-left: 0;
+        align-items: none;
+    }
+
 }
