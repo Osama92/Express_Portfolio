@@ -48,6 +48,7 @@
 
 // Mobile Layout Scripts
 const bar = document.querySelector('.fa-bars')
+const darkBtn = document.querySelector('.bx-sun')
 const close = document.querySelector('.fa-times')
 const menuOverlay = document.querySelector('.menuOverlay')
 
@@ -63,6 +64,22 @@ bar.addEventListener('click', (e)=> {
         case 'fas fa-times':
             bar.className = 'fas fa-bars'
             menuOverlay.style.display = 'none'
+            break;
+        default:
+            break;
+    } 
+})
+
+// Menu toggle function:
+darkBtn.addEventListener('click', (e)=> {
+    switch (e.target.className) {
+        case 'bx bx-sun':
+            darkBtn.className = 'bx bx-moon'
+            
+            break;
+        case 'bx bx-moon':
+            darkBtn.className = 'bx bx-sun'
+            
             break;
         default:
             break;
