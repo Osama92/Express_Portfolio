@@ -101,6 +101,7 @@ svg {
 }
 
 @media all and (min-width: 360px) and (max-width: 768px) {
+    
     svg {
         min-width: 90vw;
         min-height: 50vw;
@@ -193,15 +194,7 @@ svg {
         visibility: hidden;
         display: none;
     }
-    /* .menuOverlay {
-        width: 100%;
-        min-height: 100vh;
-        justify-content: center;
-        background: #fff;
-        position: absolute;
-        z-index: 100;
-    }
-     */
+    
     
     
     
