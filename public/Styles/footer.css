@@ -55,7 +55,7 @@
 .email:hover {
     color:#2EE59D;
 }
-.phone {
+.phone a{
     text-decoration: none;
     color: #000;
 }
