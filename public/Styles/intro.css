@@ -193,13 +193,15 @@ svg {
         visibility: hidden;
         display: none;
     }
-    .menuOverlay {
+    /* .menuOverlay {
         width: 100%;
-        height: 100%;
-        background: #2EE59D;
+        min-height: 100vh;
+        justify-content: center;
+        background: #fff;
         position: absolute;
         z-index: 100;
     }
+     */
     
     
     
