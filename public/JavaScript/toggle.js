@@ -49,14 +49,20 @@
 // Mobile Layout Scripts
 const bar = document.querySelector('.fa-bars')
 const close = document.querySelector('.fa-times')
+const menuOverlay = document.querySelector('.menuOverlay')
+
+
+// Menu toggle function:
 
 bar.addEventListener('click', (e)=> {
     switch (e.target.className) {
         case 'fas fa-bars':
             bar.className = 'fas fa-times'
+            menuOverlay.style.display = 'flex'
             break;
         case 'fas fa-times':
             bar.className = 'fas fa-bars'
+            menuOverlay.style.display = 'none'
             break;
         default:
             break;

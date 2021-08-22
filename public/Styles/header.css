@@ -70,3 +70,6 @@
     margin-left: 60px;
     cursor: pointer;
 }
+.menuOverlay {
+    display: none;
+}

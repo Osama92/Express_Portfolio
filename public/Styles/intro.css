@@ -143,6 +143,9 @@ svg {
         visibility: visible;
         margin-right: 20px;
         font-size: larger;
+        position: fixed;
+        right: 0;
+        z-index: 200;
         
     }
     .fa-times {
@@ -150,6 +153,9 @@ svg {
         visibility: visible;
         margin-right: 20px;
         font-size: larger;
+        position: fixed;
+        right: 0;
+        z-index: 200;
     }
     .contactView {
         flex-direction: column;
@@ -186,6 +192,13 @@ svg {
     #svg {
         visibility: hidden;
         display: none;
+    }
+    .menuOverlay {
+        width: 100%;
+        height: 100%;
+        background: #2EE59D;
+        position: absolute;
+        z-index: 100;
     }
     
     
