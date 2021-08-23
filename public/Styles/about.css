@@ -78,8 +78,8 @@ h1 {
 }
 svg {
     position: absolute;
-    width: 50%;
-    height: 100%;
+    min-width: 50%;
+    min-height: 50%;
 }
 .mobilepic {
     width: 40%;
