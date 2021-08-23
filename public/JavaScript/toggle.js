@@ -75,11 +75,13 @@ darkBtn.addEventListener('click', (e)=> {
     switch (e.target.className) {
         case 'bx bxs-sun':
             darkBtn.className = 'bx bxs-moon'
-            
+            document.documentElement.style.setProperty('--background1', '#343A40')
+            document.documentElement.style.setProperty('--fontColor1', '#fff')
             break;
         case 'bx bxs-moon':
             darkBtn.className = 'bx bxs-sun'
-            
+            document.documentElement.style.setProperty('--background1', '#fff')
+            document.documentElement.style.setProperty('--fontColor1', '#000')
             break;
         default:
             break;

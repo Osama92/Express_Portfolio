@@ -1,29 +1,42 @@
 h1 {
     font-family: 'Roboto', sans-serif;
+    color: var(--fontColor1);
 }
 h2 {
     font-family: 'Roboto', sans-serif;
+    color: var(--fontColor1);
 }
 p {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.10em;
+    color: var(--fontColor1);
+}
+:root {
+    --fontColor1: #000;
+    --background1: #fff;
+    --fontColor2: #fff;
+    --background2: #171717; 
 }
 
 .medium {
     font-size: 20px;
+    color: var(--fontColor1);
+    
 }
 .large {
     font-size: 35px;
+    color: var(--fontColor1);
 }
 
 .about {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    background: #fff;
+    background: var(--background1); 
 }
 .greet {
     font-family: 'Pacifico', cursive;
+    color: var(--fontColor1);
 }
 .greetingView {
     margin-top: 2rem;
@@ -40,13 +53,13 @@ p {
 }
 .emphacy {
     font-family: 'Pacifico', cursive;
-    /* font-size: 40px; */
     font-size: 2rem;
+    color: var(--fontColor1);
 }
 .emphacy2 {
     font-family: 'Pacifico', cursive;
-    /* font-size: 25px; */
     font-size: 2rem;
+    color: var(--fontColor1);
 }
 .hero {
     width: 100%;
@@ -68,15 +81,15 @@ p {
     cursor: pointer;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
-    background-color: #000;
-    color: #fff;
+    background: var(--background2);
+    color: var(--fontColor2);
     outline: none;
     letter-spacing: 0.10em;
 }
 .HireBtn:hover {
     background-color: #2EE59D;
     box-shadow: 0px 15px 20px rgba(15, 15, 15, 0.4);
-    color: #fff;
+    color: var(--fontColor2);
     font-family: 'Pacifico', cursive;
     transform: translateY(-7px);
     letter-spacing: 0.10em;
@@ -143,6 +156,7 @@ svg {
     .logoText{
         margin-left: 20px;
         font-size: medium;
+        color: var(--fontColor1);
     }
     .fa-bars{
         display: block;
@@ -152,6 +166,7 @@ svg {
         position: fixed;
         right: 0;
         z-index: 200;
+        color: var(--fontColor1);
         
     }
     .fa-times {
@@ -162,6 +177,7 @@ svg {
         position: fixed;
         right: 0;
         z-index: 200;
+        color: var(--fontColor1);
     }
     .contactView {
         flex-direction: column;
@@ -171,6 +187,7 @@ svg {
         min-width: 100%;
         justify-content: flex-start;
         margin-top: 30px;
+        color: var(--fontColor1);
     }
     .fab {
         margin-right: 30px;

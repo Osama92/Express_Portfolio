@@ -1,3 +1,9 @@
+:root {
+    --fontColor1: #000;
+    --background1: #fff;
+    --fontColor2: #fff;
+    --background2: #171717; 
+}
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 40px;
@@ -8,6 +14,7 @@ h1 {
     min-height: 200vh;
     display: flex;
     justify-content: center;
+    background: var(--background1);
 }
 .Aboutheading {
     width: 90%;
@@ -71,16 +78,12 @@ h1 {
 }
 .emphacy3 a {
     text-decoration: none;
-    color: #000;
+    color: var(--fontColor1);
 }
 .emphacy3 a:hover {
     color:#2EE59D ;
 }
-/* #svg {
-    position: absolute;
-    min-width: 50%;
-    min-height: 50%;
-} */
+
 .mobilepic {
     width: 40%;
     display: none;

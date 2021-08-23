@@ -1,6 +1,12 @@
+:root {
+    --fontColor1: #000;
+    --background1: #fff;
+    --fontColor2: #fff;
+    --background2: #171717; 
+}
+
 .footView {
-    /* background: #A19882; */
-    background: #fff;
+    background: var(--background1);
     min-height: 300px;
     display: flex;
     justify-content: center;
@@ -32,7 +38,7 @@
     margin-left: 30px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color: #000;
+    color: var(--fontColor1);
     outline: none;
     box-shadow: none;
     z-index: 1000;
@@ -50,12 +56,12 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.10em;
     text-decoration: none;
-    color: #000;
+    color: var(--fontColor1);
 }
 .email:hover {
     color:#2EE59D;
 }
 .phone a{
     text-decoration: none;
-    color: #000;
+    color: var(--fontColor1);
 }
