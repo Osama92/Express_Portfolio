@@ -76,11 +76,11 @@ h1 {
 .emphacy3 a:hover {
     color:#2EE59D ;
 }
-svg {
+/* #svg {
     position: absolute;
     min-width: 50%;
     min-height: 50%;
-}
+} */
 .mobilepic {
     width: 40%;
     display: none;

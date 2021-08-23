@@ -50,7 +50,12 @@ p {
 }
 .hero {
     width: 100%;
-    overflow: visible;
+    overflow: hidden;
+
+}
+.svg {
+    position: absolute;
+    width: 70%;
 
 }
 .HireBtn {
@@ -78,8 +83,8 @@ p {
   }
   
 svg {
-    min-width: 50rem;
-    min-height: 50rem;
+    min-width: 50%;
+    min-height: 50%;
     position: absolute;
     z-index: 1;
     animation: bounce 1s infinite alternate;
