@@ -119,16 +119,6 @@ p {
 
 @media all and (min-width: 360px) and (max-width: 768px) {
     
-    /* .svg {
-        min-width: 90vw;
-        min-height: 50vw;
-        position: absolute;
-        z-index: 1;
-        animation: bounce 1s infinite alternate;
-        -webkit-animation: bounce 1s infinite alternate;
-        
-        
-    } */
     .svgs {
         margin-top: 100px;
         max-width: 150%;
@@ -212,10 +202,6 @@ p {
         display: none;
     }
     .image2 {
-        visibility: hidden;
-        display: none;
-    }
-    #svg {
         visibility: hidden;
         display: none;
     }
