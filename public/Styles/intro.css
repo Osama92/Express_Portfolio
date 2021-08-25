@@ -66,11 +66,6 @@ p {
     overflow: hidden;
 
 }
-.svg {
-    position: absolute;
-    width: 70%;
-
-}
 .HireBtn {
     width: 200px;
     min-height: 40px;
@@ -95,7 +90,7 @@ p {
     letter-spacing: 0.10em;
   }
   
-svg {
+.svg {
     min-width: 50%;
     min-height: 50%;
     position: absolute;
@@ -120,7 +115,7 @@ svg {
 
 @media all and (min-width: 360px) and (max-width: 768px) {
     
-    svg {
+    .svg {
         min-width: 90vw;
         min-height: 50vw;
         position: absolute;
