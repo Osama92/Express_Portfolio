@@ -90,9 +90,9 @@ p {
     letter-spacing: 0.10em;
   }
   
-.svg {
-    min-width: 50%;
-    min-height: 50%;
+.SVGHolder {
+    width: 50%;
+    height: 50%;
     position: absolute;
     z-index: 1;
     animation: bounce 1s infinite alternate;
@@ -100,6 +100,10 @@ p {
     
     
 }
+.svgs {
+    max-width: 80%;
+}
+
 .fa-bars {
     display: none;
     visibility: hidden;
@@ -115,7 +119,7 @@ p {
 
 @media all and (min-width: 360px) and (max-width: 768px) {
     
-    .svg {
+    /* .svg {
         min-width: 90vw;
         min-height: 50vw;
         position: absolute;
@@ -124,6 +128,10 @@ p {
         -webkit-animation: bounce 1s infinite alternate;
         
         
+    } */
+    .svgs {
+        margin-top: 100px;
+        max-width: 150%;
     }
     
     .greetingView {
