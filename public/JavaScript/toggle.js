@@ -49,7 +49,7 @@
 // Mobile Layout Scripts
 const bar = document.querySelector('.fa-bars')
 const darkBtn = document.querySelector('.bxs-sun')
-const close = document.querySelector('.fa-times')
+const darkBtn2 = document.querySelector('.bx-sun')
 const menuOverlay = document.querySelector('.menuOverlay')
 
 
@@ -75,13 +75,35 @@ darkBtn.addEventListener('click', (e)=> {
     switch (e.target.className) {
         case 'bx bxs-sun':
             darkBtn.className = 'bx bxs-moon'
-            document.documentElement.style.setProperty('--background1', '#343A40')
-            document.documentElement.style.setProperty('--fontColor1', '#fff')
+            // document.documentElement.style.setProperty('--background1', '#343A40')
+            // document.documentElement.style.setProperty('--fontColor1', '#fff')
+            console.log('HIII')
             break;
         case 'bx bxs-moon':
             darkBtn.className = 'bx bxs-sun'
-            document.documentElement.style.setProperty('--background1', '#fff')
-            document.documentElement.style.setProperty('--fontColor1', '#000')
+            // document.documentElement.style.setProperty('--background1', '#fff')
+            // document.documentElement.style.setProperty('--fontColor1', '#000')
+            console.log('HELLO')
+            break;
+        default:
+            break;
+    } 
+})
+
+// Menu toggle function:
+darkBtn2.addEventListener('click', (e)=> {
+    switch (e.target.className) {
+        case 'bx bx-sun':
+            darkBtn.className = 'bx bx-moon'
+            // document.documentElement.style.setProperty('--background1', '#343A40')
+            // document.documentElement.style.setProperty('--fontColor1', '#fff')
+            console.log('HIII')
+            break;
+        case 'bx bx-moon':
+            darkBtn.className = 'bx bx-sun'
+            // document.documentElement.style.setProperty('--background1', '#fff')
+            // document.documentElement.style.setProperty('--fontColor1', '#000')
+            console.log('HELLO')
             break;
         default:
             break;

@@ -100,7 +100,8 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: x-large;
-    background: var(--background1);
+    /* background: var(--background1); */
+    background: pink;
     font-weight: 700;
 
 }
