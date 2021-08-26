@@ -11,7 +11,7 @@
 //     headerColor.classList.add('headerColors')
 //     introColor.classList.add('introColor')
 //     footerColor.classList.add('footerColor')
-    
+
 // }
 // const colorRemove = ()=> {
 //     introColor.classList.remove('introColor')
@@ -19,93 +19,91 @@
 //     headerColor.classList.remove('headerColors')
 // }
 // const toggler = document.getElementById("toggler").addEventListener('click', ()=> {
-    
+
 //     if
 //     (toggleBtn.className === light) {
 //         toggleBtn.className = dark
 //         // headerColor.style.transition = 'background 1s ease'
 //         // headerColor.style.background = '#2D2424'
-        
 
 //         for (let i = 0; i < text.length; i++) {
 //             text[i].style.color = 'white';
-            
+
 //         }
 //         colorChange()
 
 //     } else {
 //         toggleBtn.className = light
 //         // headerColor.style.background = '#FEF7DC'
-        
+
 //         for (let i = 0; i < text.length; i++) {
 //             text[i].style.color = 'black';
-            
+
 //         }
 //         colorRemove()
 //     }
 
-// }) 
+// })
 
 // Mobile Layout Scripts
-const bar = document.querySelector('.fa-bars')
-const darkBtn = document.querySelector('.bxs-sun')
-const darkBtn2 = document.querySelector('.bx-sun')
-const menuOverlay = document.querySelector('.menuOverlay')
-
-
-// Menu toggle function:
-
-bar.addEventListener('click', (e)=> {
-    switch (e.target.className) {
-        case 'fas fa-bars':
-            bar.className = 'fas fa-times'
-            menuOverlay.style.display = 'flex'
-            break;
-        case 'fas fa-times':
-            bar.className = 'fas fa-bars'
-            menuOverlay.style.display = 'none'
-            break;
-        default:
-            break;
-    } 
-})
+const bar = document.querySelector(".fa-bars");
+const darkBtn = document.querySelector(".bxs-sun");
+const darkBtn2 = document.querySelector(".bx-sun");
+const menuOverlay = document.querySelector(".menuOverlay");
 
 // Menu toggle function:
-darkBtn.addEventListener('click', (e)=> {
-    switch (e.target.className) {
-        case 'bx bxs-sun':
-            darkBtn.className = 'bx bxs-moon'
-            // document.documentElement.style.setProperty('--background1', '#343A40')
-            // document.documentElement.style.setProperty('--fontColor1', '#fff')
-            console.log('HIII')
-            break;
-        case 'bx bxs-moon':
-            darkBtn.className = 'bx bxs-sun'
-            // document.documentElement.style.setProperty('--background1', '#fff')
-            // document.documentElement.style.setProperty('--fontColor1', '#000')
-            console.log('HELLO')
-            break;
-        default:
-            break;
-    } 
-})
+
+bar.addEventListener("click", (e) => {
+  switch (e.target.className) {
+    case "fas fa-bars":
+      bar.className = "fas fa-times";
+      menuOverlay.style.display = "flex";
+      break;
+    case "fas fa-times":
+      bar.className = "fas fa-bars";
+      menuOverlay.style.display = "none";
+      break;
+    default:
+      break;
+  }
+});
 
 // Menu toggle function:
-darkBtn2.addEventListener('click', (e)=> {
-    switch (e.target.className) {
-        case 'bx bx-sun':
-            darkBtn.className = 'bx bx-moon'
-            // document.documentElement.style.setProperty('--background1', '#343A40')
-            // document.documentElement.style.setProperty('--fontColor1', '#fff')
-            console.log('HIII')
-            break;
-        case 'bx bx-moon':
-            darkBtn.className = 'bx bx-sun'
-            // document.documentElement.style.setProperty('--background1', '#fff')
-            // document.documentElement.style.setProperty('--fontColor1', '#000')
-            console.log('HELLO')
-            break;
-        default:
-            break;
-    } 
-})
+darkBtn.addEventListener("click", (e) => {
+  switch (e.target.className) {
+    case "bx bxs-sun":
+      darkBtn.className = "bx bxs-moon";
+      // document.documentElement.style.setProperty('--background1', '#343A40')
+      // document.documentElement.style.setProperty('--fontColor1', '#fff')
+      console.log("HIII");
+      break;
+    case "bx bxs-moon":
+      darkBtn.className = "bx bxs-sun";
+      // document.documentElement.style.setProperty('--background1', '#fff')
+      // document.documentElement.style.setProperty('--fontColor1', '#000')
+      console.log("HELLO");
+      break;
+    default:
+      break;
+  }
+});
+
+// Menu toggle function:
+darkBtn2.addEventListener("click", (e) => {
+  switch (e.target.className) {
+    case "bx bx-sun":
+      darkBtn2.className = "bx bx-moon";
+      // document.documentElement.style.setProperty('--background1', '#343A40')
+      // document.documentElement.style.setProperty('--fontColor1', '#fff')
+      console.log("HIII");
+      break;
+    case "bx bx-moon":
+      darkBtn2.className = "bx bx-sun";
+      // document.documentElement.style.setProperty('--background1', '#fff')
+      // document.documentElement.style.setProperty('--fontColor1', '#000')
+      console.log("HELLO");
+      break;
+    default:
+      break;
+  }
+});
