@@ -4,6 +4,8 @@ const darkBtn = document.querySelector(".bxs-sun");
 const darkBtn2 = document.querySelector(".bx-sun");
 const menuOverlay = document.querySelector(".menuOverlay");
 
+let toggle = localStorage.getItem("darkmode", "Enabled");
+
 // Menu toggle function:
 
 bar.addEventListener("click", (e) => {
@@ -21,20 +23,37 @@ bar.addEventListener("click", (e) => {
   }
 });
 
+const EnableDarkMode = () => {
+  darkBtn.className = "bx bxs-moon";
+  document.documentElement.style.setProperty("--background1", "#343A40");
+  document.documentElement.style.setProperty("--fontColor1", "#fff");
+};
+
+const DisableDarkMode = () => {
+  darkBtn.className = "bx bxs-sun";
+  document.documentElement.style.setProperty("--background1", "#fff");
+  document.documentElement.style.setProperty("--fontColor1", "#000");
+};
+
+if (toggle === "Enabled") {
+  EnableDarkMode();
+} else {
+  DisableDarkMode();
+}
+
 // Dark mode toggle function for Big screen:
 darkBtn.addEventListener("click", (e) => {
+  toggle = localStorage.setItem("darkmode", "Enabled");
   switch (e.target.className) {
     case "bx bxs-sun":
       darkBtn.className = "bx bxs-moon";
-      document.documentElement.style.setProperty("--background1", "#343A40");
-      document.documentElement.style.setProperty("--fontColor1", "#fff");
+      EnableDarkMode();
 
       break;
     case "bx bxs-moon":
       darkBtn.className = "bx bxs-sun";
-      document.documentElement.style.setProperty("--background1", "#fff");
-      document.documentElement.style.setProperty("--fontColor1", "#000");
-
+      DisableDarkMode();
+      toggle = localStorage.setItem("darkmode", "Disabled");
       break;
     default:
       break;
