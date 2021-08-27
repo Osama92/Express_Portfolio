@@ -3,6 +3,7 @@ const bar = document.querySelector(".fa-bars");
 const darkBtn = document.querySelector(".bxs-sun");
 const darkBtn2 = document.querySelector(".bx-sun");
 const menuOverlay = document.querySelector(".menuOverlay");
+const hireBtn = document.querySelector('.HireBtn')
 
 let toggle = localStorage.getItem("darkmode", "Enabled");
 
@@ -85,3 +86,8 @@ darkBtn2.addEventListener("click", (e) => {
       break;
   }
 });
+
+// Hire Btn:
+hireBtn.addEventListener('click', ()=> {
+    window.location ='mailto:dhayo213@gmail.com';
+})
