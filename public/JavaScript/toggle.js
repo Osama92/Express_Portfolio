@@ -25,12 +25,16 @@ bar.addEventListener("click", (e) => {
 
 const EnableDarkMode = () => {
   darkBtn.className = "bx bxs-moon";
+  darkBtn2.className = "bx bx-moon";
+
   document.documentElement.style.setProperty("--background1", "#343A40");
   document.documentElement.style.setProperty("--fontColor1", "#fff");
 };
 
 const DisableDarkMode = () => {
   darkBtn.className = "bx bxs-sun";
+  darkBtn2.className = "bx bx-sun";
+
   document.documentElement.style.setProperty("--background1", "#fff");
   document.documentElement.style.setProperty("--fontColor1", "#000");
 };
@@ -66,16 +70,15 @@ darkBtn2.addEventListener("click", (e) => {
   switch (e.target.className) {
     case "bx bx-sun":
       darkBtn2.className = "bx bx-moon";
-      // document.documentElement.style.setProperty("--background1", "#343A40");
-      // document.documentElement.style.setProperty("--fontColor1", "#fff");
-      // EnableDarkMode();
+
+      EnableDarkMode();
 
       break;
     case "bx bx-moon":
       darkBtn2.className = "bx bx-sun";
-      // document.documentElement.style.setProperty("--background1", "#fff");
-      // document.documentElement.style.setProperty("--fontColor1", "#000");
-      // DisableDarkMode();
+      toggle = localStorage.setItem("darkmode", "Disabled");
+
+      DisableDarkMode();
 
       break;
     default:
