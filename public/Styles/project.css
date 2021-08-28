@@ -1,5 +1,12 @@
 .projectView {
-    width: 100%;
-    height: 200vh;
-    background: grey;
+  width: 100%;
+  height: 200vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.projectHolder {
+  width: 90%;
+  height: 100%;
+  background: grey;
 }
