@@ -9,3 +9,48 @@
   width: 90%;
   height: 100%;
 }
+.project {
+  width: 90%;
+  min-height: 60vh;
+  background: orange;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.showcase {
+  width: 50%;
+  height: 60vh;
+  background: grey;
+}
+.showcase_text {
+  width: 50%;
+  height: 60vh;
+  background: pink;
+  display: flex;
+  flex-direction: column;
+}
+.showcase_01 {
+  width: 100%;
+  height: 20vh;
+  background: green;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.showcase_01 p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.showcase_02 {
+  width: 110%;
+  height: 20vh;
+  background: greenyellow;
+  position: relative;
+  right: 4rem;
+  border-radius: 5px;
+}
+.showcase_03 {
+  width: 100%;
+  height: 20vh;
+  background: lightgreen;
+}
