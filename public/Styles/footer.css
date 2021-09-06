@@ -1,67 +1,82 @@
 :root {
-    --fontColor1: #000;
-    --background1: #fff;
-    --fontColor2: #fff;
-    --background2: #171717; 
+  --fontColor1: #000;
+  --background1: #fff;
+  --fontColor2: #fff;
+  --background2: #171717;
 }
 
 .footView {
-    background: var(--background1);
-    min-height: 300px;
-    display: flex;
-    justify-content: center;
+  background: var(--background1);
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
 }
 .fHolder {
-    width: 90%;
-    min-height: 100%;
+  width: 90%;
+  min-height: 100%;
 }
 .FText {
-    font-family: 'Pacifico', cursive;
-    font-size: 2rem;
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
 }
 .contactView {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .socialBtn {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 60%;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+  align-items: center;
 }
 .fab {
-    margin-left: 30px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    color: var(--fontColor1);
-    outline: none;
-    box-shadow: none;
-    z-index: 1000;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: var(--fontColor1);
+  outline: none;
+  box-shadow: none;
+  z-index: 1000;
+}
+.fas {
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: var(--fontColor1);
+  outline: none;
+  box-shadow: none;
+  z-index: 1000;
+}
+.fas:hover {
+  /* transform: translateY(-7px); */
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #2ee59d;
+  border-radius: 10px;
 }
 .fab:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #2EE59D;
-    border-radius: 10px;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #2ee59d;
+  border-radius: 10px;
 }
 .email {
-    font-weight: 700;
-    cursor: pointer;
-    width: min-content;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.10em;
-    text-decoration: none;
-    color: var(--fontColor1);
+  font-weight: 700;
+  cursor: pointer;
+  width: min-content;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: var(--fontColor1);
 }
 .email:hover {
-    color:#2EE59D;
+  color: #2ee59d;
 }
-.phone a{
-    text-decoration: none;
-    color: var(--fontColor1);
+.phone a {
+  text-decoration: none;
+  color: var(--fontColor1);
 }
