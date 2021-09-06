@@ -53,4 +53,25 @@
   width: 100%;
   height: 20vh;
   background: lightgreen;
+  display: flex;
+  flex-direction: column;
+}
+.built_with {
+  width: 100%;
+  height: 5vh;
+  background: peru;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.built_with p {
+  margin-left: 20px;
+}
+.link {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  background: yellow;
 }
