@@ -3,7 +3,7 @@ const bar = document.querySelector(".fa-bars");
 const darkBtn = document.querySelector(".bxs-sun");
 const darkBtn2 = document.querySelector(".bx-sun");
 const menuOverlay = document.querySelector(".menuOverlay");
-const hireBtn = document.querySelector('.HireBtn')
+const hireBtn = document.querySelector(".HireBtn");
 
 let toggle = localStorage.getItem("darkmode", "Enabled");
 
@@ -14,10 +14,12 @@ bar.addEventListener("click", (e) => {
     case "fas fa-bars":
       bar.className = "fas fa-times";
       menuOverlay.style.display = "flex";
+      document.querySelector("html").style.overflow = "hidden";
       break;
     case "fas fa-times":
       bar.className = "fas fa-bars";
       menuOverlay.style.display = "none";
+      document.querySelector("html").style.overflow = "scroll";
       break;
     default:
       break;
@@ -88,6 +90,6 @@ darkBtn2.addEventListener("click", (e) => {
 });
 
 // Hire Btn:
-hireBtn.addEventListener('click', ()=> {
-    window.location ='mailto:dhayo213@gmail.com';
-})
+hireBtn.addEventListener("click", () => {
+  window.location = "mailto:dhayo213@gmail.com";
+});
