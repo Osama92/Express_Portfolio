@@ -43,7 +43,7 @@
   box-shadow: none;
   z-index: 1000;
 }
-.fas {
+#proj_icons {
   margin-left: 30px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -52,7 +52,7 @@
   box-shadow: none;
   z-index: 1000;
 }
-.fas:hover {
+#proj_icons:hover {
   /* transform: translateY(-7px); */
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #2ee59d;
