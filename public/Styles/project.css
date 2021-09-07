@@ -109,6 +109,7 @@
   .showcase_01 {
     width: 100%;
     align-items: flex-start;
+    height: 15vh;
   }
   .showcase_01 p {
     font-size: 0.7rem;
