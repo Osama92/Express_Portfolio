@@ -24,8 +24,11 @@ p {
   color: var(--fontColor1);
 }
 .large {
-  font-size: 35px;
+  font-size: 3rem;
   color: var(--fontColor1);
+}
+.catch {
+  font-size: 1.5rem;
 }
 
 .about {
@@ -52,7 +55,7 @@ p {
 }
 .emphacy {
   font-family: "Pacifico", cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--fontColor1);
 }
 .emphacy2 {
@@ -78,6 +81,7 @@ p {
   color: var(--fontColor2);
   outline: none;
   letter-spacing: 0.1em;
+  margin-top: 30px;
 }
 .HireBtn:hover {
   background-color: #2ee59d;
@@ -113,10 +117,22 @@ p {
   }
 }
 
-@media all and (min-width: 360px) and (max-width: 768px) {
+@media all and (min-width: 320px) and (max-width: 768px) {
   .svgs {
     margin-top: 100px;
     max-width: 150%;
+  }
+  .medium {
+    font-size: 0.9rem;
+  }
+  .emphacy {
+    font-size: 1.5rem;
+  }
+  .large {
+    font-size: 1.5rem;
+  }
+  .catch {
+    font-size: 1rem;
   }
 
   .greetingView {
