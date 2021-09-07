@@ -93,3 +93,23 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+@media all and (min-width: 360px) and (max-width: 768px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  .showcase {
+    width: 100%;
+  }
+  .showcase_text {
+    width: 100%;
+  }
+  .showcase_01 {
+    width: 100%;
+    background: pink;
+  }
+  .showcase_02 {
+    width: 100%;
+  }
+}
