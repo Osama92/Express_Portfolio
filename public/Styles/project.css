@@ -101,15 +101,29 @@
   }
   .showcase {
     width: 100%;
+    height: 30vh;
   }
   .showcase_text {
     width: 100%;
   }
   .showcase_01 {
     width: 100%;
-    background: pink;
+    align-items: flex-start;
+  }
+  .showcase_01 p {
+    font-size: 0.7rem;
   }
   .showcase_02 {
     width: 100%;
+    right: 0;
+  }
+  .showcase_02 p {
+    font-size: 0.8rem;
+  }
+  .built_with {
+    margin-top: 10px;
+  }
+  .built_with p {
+    font-size: 0.7rem;
   }
 }
