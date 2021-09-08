@@ -12,6 +12,7 @@ ScrollReveal().reveal(".emphacy2, .fab, #proj_icons", {
   interval: 200,
   origin: "bottom",
   distance: "30px",
+  opacity: 1,
   mobile: false
 });
 ScrollReveal().reveal(".catch", { delay: 1000, duration: 2000 });
