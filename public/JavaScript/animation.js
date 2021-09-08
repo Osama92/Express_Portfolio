@@ -12,7 +12,6 @@ ScrollReveal().reveal(".catch, .fab, #proj_icons", {
   origin: "left",
   distance: "30px",
   opacity: 0
-  // mobile: false
 });
 ScrollReveal().reveal(".emphacy2, .HireBtn", {
   delay: 2000,
@@ -21,7 +20,6 @@ ScrollReveal().reveal(".emphacy2, .HireBtn", {
   origin: "bottom",
   distance: "30px",
   opacity: 0
-  // mobile: false
 });
 ScrollReveal().reveal(".profileImg, .mobilepic", {
   delay: 200,
