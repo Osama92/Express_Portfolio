@@ -1,5 +1,5 @@
 ScrollReveal().reveal(".hero", { delay: 500 });
-ScrollReveal().reveal(".emphacy", { delay: 900, duration: 600 });
+ScrollReveal().reveal(".emphacy", { delay: 800, duration: 600 });
 ScrollReveal().reveal(".showcase", {
   delay: 700,
   duration: 600,
@@ -7,15 +7,22 @@ ScrollReveal().reveal(".showcase", {
   distance: "30px"
 });
 ScrollReveal().reveal(".large", { delay: 500 });
-ScrollReveal().reveal(".emphacy2, .fab, #proj_icons", {
-  delay: 1000,
-  interval: 200,
+ScrollReveal().reveal(".catch, .fab, #proj_icons", {
+  delay: 1500,
+  origin: "left",
+  distance: "30px",
+  opacity: 0
+  // mobile: false
+});
+ScrollReveal().reveal(".emphacy2, .HireBtn", {
+  delay: 2000,
+  duration: 900,
+  interval: 500,
   origin: "bottom",
   distance: "30px",
-  opacity: 1,
-  mobile: false
+  opacity: 0
+  // mobile: false
 });
-ScrollReveal().reveal(".catch", { delay: 1000, duration: 2000 });
 ScrollReveal().reveal(".profileImg, .mobilepic", {
   delay: 200,
   duration: 1000,
