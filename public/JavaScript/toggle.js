@@ -102,7 +102,7 @@ hireBtn.addEventListener("click", () => {
   if (isHidden === "flex") {
     bar.style.opacity = "0";
     bar.style.transition = "0.5s";
-
+    document.querySelector("html").style.overflow = "hidden";
     multiBtn.style.width = "100px";
     multiBtn.style.transition = "1s";
   }

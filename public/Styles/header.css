@@ -110,11 +110,10 @@
 .contactModal {
   width: 90%;
   height: 90%;
-  position: absolute;
+  position: fixed;
   z-index: 152;
   background: silver;
   top: 20px;
-  bottom: 0;
   border-radius: 5px;
   display: none;
 }
