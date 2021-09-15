@@ -112,8 +112,26 @@
   height: 90%;
   position: fixed;
   z-index: 152;
-  background: silver;
-  top: 20px;
+  background: var(--background1);
+  top: 30px;
   border-radius: 5px;
   display: none;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.closeBtn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #2ee59c56;
+  margin-top: auto;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeBtn i {
+  position: relative;
+  margin: 0 auto;
+  color: var(--fontColor1);
 }
