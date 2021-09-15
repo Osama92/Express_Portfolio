@@ -4,6 +4,8 @@ const darkBtn = document.querySelector(".bxs-sun");
 const darkBtn2 = document.querySelector(".bx-sun");
 const menuOverlay = document.querySelector(".menuOverlay");
 const hireBtn = document.querySelector(".HireBtn");
+const overlayModal = document.querySelector(".contactModal");
+const multiBtn = document.querySelector(".ham_holder");
 
 let toggle = localStorage.getItem("darkmode", "Enabled");
 
@@ -89,7 +91,20 @@ darkBtn2.addEventListener("click", (e) => {
   }
 });
 
+// Experi
+let isHidden = (overlayModal.style.display = "none");
+
 // Hire Btn:
 hireBtn.addEventListener("click", () => {
-  window.location = "mailto:dhayo213@gmail.com";
+  // window.location = "mailto:dhayo213@gmail.com";
+  overlayModal.style.display = "flex";
+  isHidden = "flex";
+
+  if (isHidden === "flex") {
+    bar.style.opacity = "0";
+    bar.style.transition = "1s";
+
+    multiBtn.style.width = "100px";
+    multiBtn.style.transition = "1s";
+  }
 });
