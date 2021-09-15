@@ -72,16 +72,20 @@
   letter-spacing: 0.1em;
   text-decoration: none;
   color: var(--fontColor1);
+  padding-bottom: 20px;
 }
 .email:hover {
   color: #2ee59d;
 }
+
 .phone {
   margin-top: 20px;
-}
-.phone a {
   text-decoration: none;
   color: var(--fontColor1);
+}
+.phone:hover {
+  color: #2ee59d;
+  font-weight: 700;
 }
 .footerText {
   font-size: 0.8em;
