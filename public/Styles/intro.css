@@ -166,12 +166,6 @@ p {
   .fa-bars {
     display: block;
     visibility: visible;
-    /* margin-right: 20px;
-    font-size: larger;
-    position: fixed;
-    right: 0;
-    bottom: 100px;
-    z-index: 200; */
     color: var(--fontColor1);
   }
   .ham_holder {
@@ -191,11 +185,6 @@ p {
   .fa-times {
     display: block;
     visibility: visible;
-    /* margin-right: 20px;
-    font-size: larger;
-    position: fixed;
-    right: 0;
-    z-index: 200; */
     color: var(--fontColor1);
   }
   .contactView {
@@ -237,5 +226,11 @@ p {
     margin-top: 30px;
     margin-left: 20px;
     font-size: larger;
+  }
+  .sendBtn {
+    display: none;
+    color: var(--fontColor1);
+    font-weight: 600;
+    visibility: visible;
   }
 }
