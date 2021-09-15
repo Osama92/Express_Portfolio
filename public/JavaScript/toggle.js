@@ -6,6 +6,7 @@ const menuOverlay = document.querySelector(".menuOverlay");
 const hireBtn = document.querySelector(".HireBtn");
 const overlayModal = document.querySelector(".contactModal");
 const multiBtn = document.querySelector(".ham_holder");
+const closeBtn = document.querySelector(".closeBtn");
 
 let toggle = localStorage.getItem("darkmode", "Enabled");
 
@@ -100,10 +101,23 @@ hireBtn.addEventListener("click", () => {
   isHidden = overlayModal.style.display = "flex";
 
   if (isHidden === "flex") {
-    bar.style.opacity = "0";
+    //bar.style.opacity = "0";
+    bar.style.display = "none";
     bar.style.transition = "0.5s";
     document.querySelector("html").style.overflow = "hidden";
     multiBtn.style.width = "100px";
     multiBtn.style.transition = "1s";
+    document.querySelector(".sendBtn").style.display = "block";
   }
+});
+
+closeBtn.addEventListener("click", () => {
+  isHidden = overlayModal.style.display = "none";
+  //bar.style.opacity = "1";
+  bar.style.display = "block";
+  bar.style.transition = "0.5s";
+  document.querySelector("html").style.overflow = "scroll";
+  multiBtn.style.width = "40px";
+  multiBtn.style.transition = "1s";
+  document.querySelector(".sendBtn").style.display = "none";
 });
