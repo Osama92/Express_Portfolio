@@ -36,6 +36,7 @@ p {
   display: flex;
   justify-content: center;
   background: var(--background1);
+  transition: background 0.5s ease;
 }
 .greet {
   font-family: "Pacifico", cursive;

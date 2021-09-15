@@ -18,6 +18,7 @@
   justify-content: center;
   align-items: center;
   background: var(--background1);
+  transition: background 0.5s ease;
 }
 
 .logo {
@@ -90,6 +91,7 @@
   z-index: 150;
   top: 0;
   left: 0;
+  transition: background 0.5s ease;
 }
 .menuOverlay a {
   text-decoration: none;

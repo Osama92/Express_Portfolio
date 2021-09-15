@@ -1,100 +1,98 @@
 :root {
-    --fontColor1: #000;
-    --background1: #fff;
-    --fontColor2: #fff;
-    --background2: #171717; 
+  --fontColor1: #000;
+  --background1: #fff;
+  --fontColor2: #fff;
+  --background2: #171717;
 }
 h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
 }
 .mySelf {
-    width: 100%;
-    min-height: 200vh;
-    display: flex;
-    justify-content: center;
-    background: var(--background1);
+  width: 100%;
+  min-height: 200vh;
+  display: flex;
+  justify-content: center;
+  background: var(--background1);
+  transition: background 0.5s ease;
 }
 .Aboutheading {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
 }
 .text {
-    width: 50%;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
 }
 .text p {
-    line-height: 2em;
+  line-height: 2em;
 }
 .profileImg {
-    width: 25%;
-    position: absolute;
-    z-index: 5;
-    margin-top: 30px;
-    margin-left: 60px;
-    border-radius: 3%;
-    
+  width: 25%;
+  position: absolute;
+  z-index: 5;
+  margin-top: 30px;
+  margin-left: 60px;
+  border-radius: 3%;
 }
 .profileImg2 {
-    width: 30%;
-    position: absolute;
-    z-index: 5;
-    margin-top: 30px;
-    margin-left: 60px;
-    border-radius: 3%;
+  width: 30%;
+  position: absolute;
+  z-index: 5;
+  margin-top: 30px;
+  margin-left: 60px;
+  border-radius: 3%;
 }
 .languages {
-    width: 80%;
-    height: 10%;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+  width: 80%;
+  height: 10%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 #languages::before {
-    content: '▶ ';
-    color: #2EE59D;
-    font-size: 10px;
+  content: "▶ ";
+  color: #2ee59d;
+  font-size: 10px;
 }
 .image {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .image1 {
-    margin-top: 30px;
-    height: 50%;
+  margin-top: 30px;
+  height: 50%;
 }
 .image2 {
-    height: 50%;
+  height: 50%;
 }
 .emphacy3 {
-    font-family: 'Pacifico', cursive;
-    font-size: 20px;
-    cursor: pointer;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  cursor: pointer;
 }
 .emphacy3 a {
-    text-decoration: none;
-    color: var(--fontColor1);
+  text-decoration: none;
+  color: var(--fontColor1);
 }
 .emphacy3 a:hover {
-    color:#2EE59D ;
+  color: #2ee59d;
 }
 
 .mobilepic {
-    width: 40%;
-    display: none;
+  width: 40%;
+  display: none;
 }
 
 @media all and (min-width: 360px) and (max-width: 768px) {
-    .mobilepic {
-        width: 50%;
-        border-radius: 5%;
-        margin-top: 10px;
-        display: block;
-        
-    }
+  .mobilepic {
+    width: 50%;
+    border-radius: 5%;
+    margin-top: 10px;
+    display: block;
+  }
 }

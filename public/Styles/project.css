@@ -3,6 +3,7 @@
   background: var(--background1);
   display: flex;
   justify-content: center;
+  transition: background 0.5s ease;
 }
 .projectHolder {
   width: 90%;
