@@ -82,6 +82,7 @@
   margin-top: 20px;
   text-decoration: none;
   color: var(--fontColor1);
+  font-family: "Roboto", sans-serif;
 }
 .phone:hover {
   color: #2ee59d;
