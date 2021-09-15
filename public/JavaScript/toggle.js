@@ -97,12 +97,11 @@ let isHidden = (overlayModal.style.display = "none");
 // Hire Btn:
 hireBtn.addEventListener("click", () => {
   // window.location = "mailto:dhayo213@gmail.com";
-  overlayModal.style.display = "flex";
-  isHidden = "flex";
+  isHidden = overlayModal.style.display = "flex";
 
   if (isHidden === "flex") {
     bar.style.opacity = "0";
-    bar.style.transition = "1s";
+    bar.style.transition = "0.5s";
 
     multiBtn.style.width = "100px";
     multiBtn.style.transition = "1s";
