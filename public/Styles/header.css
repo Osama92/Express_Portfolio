@@ -139,8 +139,5 @@
   color: var(--fontColor1);
 }
 .sendBtn {
-  /* display: none;
-  color: var(--fontColor1);
-  font-weight: 600; */
   visibility: hidden;
 }
