@@ -229,8 +229,8 @@ p {
   }
   .sendBtn {
     display: none;
-    color: var(--fontColor1);
     font-weight: 600;
     visibility: visible;
+    color: #fff;
   }
 }

@@ -101,11 +101,12 @@ hireBtn.addEventListener("click", () => {
   isHidden = overlayModal.style.display = "flex";
 
   if (isHidden === "flex") {
-    //bar.style.opacity = "0";
     bar.style.display = "none";
     bar.style.transition = "0.5s";
     document.querySelector("html").style.overflow = "hidden";
     multiBtn.style.width = "100px";
+    multiBtn.style.borderRadius = "5px 20px 5px";
+    multiBtn.style.background = "#000";
     multiBtn.style.transition = "1s";
     document.querySelector(".sendBtn").style.display = "block";
   }
@@ -113,11 +114,12 @@ hireBtn.addEventListener("click", () => {
 
 closeBtn.addEventListener("click", () => {
   isHidden = overlayModal.style.display = "none";
-  //bar.style.opacity = "1";
   bar.style.display = "block";
   bar.style.transition = "0.5s";
   document.querySelector("html").style.overflow = "scroll";
   multiBtn.style.width = "40px";
+  multiBtn.style.borderRadius = "5px";
+  multiBtn.style.background = "#2ee59d";
   multiBtn.style.transition = "1s";
   document.querySelector(".sendBtn").style.display = "none";
 });

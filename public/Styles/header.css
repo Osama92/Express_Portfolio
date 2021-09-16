@@ -177,10 +177,25 @@
 }
 .msgField {
   width: 100%;
-  height: 50%;
+  height: 45%;
   background: #2ee59c56;
   border-radius: 5px;
-  margin-top: 20px;
+}
+.msgField input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.msgField input::placeholder {
+  position: relative;
+  bottom: 40%;
+}
+.msgField input[type="text"] {
+  position: relative;
+  bottom: 40%;
 }
 #Name {
   font-size: 0.7rem;
@@ -190,6 +205,13 @@
   transition: opacity ease-out 0.125s;
 }
 #Email {
+  font-size: 0.7rem;
+  color: var(--fontColor1);
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity ease-out 0.125s;
+}
+#Message {
   font-size: 0.7rem;
   color: var(--fontColor1);
   margin-top: 20px;
