@@ -233,4 +233,8 @@ p {
     visibility: visible;
     color: #fff;
   }
+  .HireBtn {
+    font-size: 14px;
+    width: 150px;
+  }
 }
