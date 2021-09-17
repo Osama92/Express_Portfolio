@@ -227,5 +227,6 @@
   transition: opacity ease-out 0.125s;
 }
 .MessageSection {
-  font-size: 6rem;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
 }
