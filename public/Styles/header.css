@@ -226,3 +226,6 @@
   opacity: 0;
   transition: opacity ease-out 0.125s;
 }
+.MessageSection {
+  font-size: 6rem;
+}
