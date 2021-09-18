@@ -143,20 +143,19 @@
   visibility: hidden;
 }
 .cmHeader {
-  widows: 95%;
-  height: 8rem;
+  width: 95%;
 }
 .cmHeader p {
   padding-left: 20px;
   padding-top: 20px;
-  font-size: 17px;
+  font-size: 15px;
 }
 .cmHeader h3 {
   padding-left: 20px;
   padding-top: 10px;
   font-weight: 600;
   font-family: "Pacifico", cursive;
-  font-size: 25px;
+  font-size: 20px;
 }
 .textInputs {
   width: 95%;
@@ -166,15 +165,15 @@
   flex-direction: column;
 }
 .fields {
-  width: 100%;
+  width: 80%;
   height: 10%;
   background: #2ee59c56;
   border-radius: 5px;
-  /* margin-top: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
 }
 .fields input {
   width: 100%;
@@ -184,10 +183,11 @@
   padding-left: 10px;
 }
 .msgField {
-  width: 100%;
-  height: 45%;
+  width: 90%;
+  height: 40%;
   background: #2ee59c56;
   border-radius: 5px;
+  margin-left: 10px;
 }
 .msgField input {
   width: 100%;
@@ -208,25 +208,39 @@
 #Name {
   font-size: 0.7rem;
   color: var(--fontColor1);
-  margin-top: 20px;
+  margin-top: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
 }
 #Email {
   font-size: 0.7rem;
   color: var(--fontColor1);
-  margin-top: 20px;
+  margin-top: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
 }
 #Message {
   font-size: 0.7rem;
   color: var(--fontColor1);
-  margin-top: 20px;
+  margin-top: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
 }
 .MessageSection {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.inputProp {
+  width: 90%;
+  background: none;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 2px;
+  border-bottom-color: #2ee59c56;
+  padding-left: 10px;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
 }
