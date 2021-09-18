@@ -104,6 +104,9 @@ p {
 .svgs {
   max-width: 80%;
 }
+.ham_holder {
+  visibility: hidden;
+}
 
 .fa-bars {
   display: none;

@@ -212,6 +212,7 @@ textarea {
   padding-bottom: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
+  font-family: "Pacifico", cursive;
 }
 #Email {
   font-size: 0.7rem;
@@ -221,6 +222,7 @@ textarea {
   padding-bottom: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
+  font-family: "Pacifico", cursive;
 }
 #Message {
   font-size: 0.7rem;
@@ -230,6 +232,7 @@ textarea {
   margin-left: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
+  font-family: "Pacifico", cursive;
 }
 .MessageSection {
   font-size: 1.5rem;
@@ -237,10 +240,12 @@ textarea {
   padding-left: 20px;
   padding-top: 10px;
 }
-/* ::placeholder {
+::placeholder {
   font-family: "Pacifico", cursive;
-} */
+}
 input:focus::placeholder {
   color: transparent;
-  font-family: "Pacifico", cursive;
+}
+textarea:focus::placeholder {
+  color: transparent;
 }
