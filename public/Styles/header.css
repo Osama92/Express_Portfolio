@@ -208,6 +208,8 @@ textarea {
   font-size: 0.7rem;
   color: var(--fontColor1);
   margin-top: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
 }
@@ -215,6 +217,8 @@ textarea {
   font-size: 0.7rem;
   color: var(--fontColor1);
   margin-top: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
 }
@@ -222,6 +226,8 @@ textarea {
   font-size: 0.7rem;
   color: var(--fontColor1);
   margin-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
   opacity: 0;
   transition: opacity ease-out 0.125s;
 }

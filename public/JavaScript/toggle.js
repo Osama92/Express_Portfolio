@@ -7,6 +7,12 @@ const hireBtn = document.querySelector(".HireBtn");
 const overlayModal = document.querySelector(".contactModal");
 const multiBtn = document.querySelector(".ham_holder");
 const closeBtn = document.querySelector(".closeBtn");
+const nameField = document.querySelector(".NameField");
+const emailField = document.querySelector(".EmailField");
+const msgField = document.querySelector(".MsgField");
+const spanName = document.querySelector("#Name");
+const spanEmail = document.querySelector("#Email");
+const spanMsg = document.querySelector("#Message");
 
 let toggle = localStorage.getItem("darkmode", "Enabled");
 
@@ -94,7 +100,6 @@ darkBtn2.addEventListener("click", (e) => {
 
 // Experi
 let isHidden = (overlayModal.style.display = "none");
-
 // Hire Btn:
 hireBtn.addEventListener("click", () => {
   // window.location = "mailto:dhayo213@gmail.com";
@@ -123,3 +128,20 @@ closeBtn.addEventListener("click", () => {
   multiBtn.style.transition = "1s";
   document.querySelector(".sendBtn").style.display = "none";
 });
+
+// input Fields:
+nameField.onfocus = function () {
+  spanName.style.opacity = 1;
+  spanEmail.style.opacity = 0;
+  spanMsg.style.opacity = 0;
+};
+emailField.onfocus = function () {
+  spanName.style.opacity = 0;
+  spanEmail.style.opacity = 1;
+  spanMsg.style.opacity = 0;
+};
+msgField.onfocus = function () {
+  spanName.style.opacity = 0;
+  spanEmail.style.opacity = 0;
+  spanMsg.style.opacity = 1;
+};
