@@ -22,17 +22,15 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
-// const database = getDatabase();
+const database = getDatabase();
 
-function writeUserData(userId, name, email, imageUrl) {
-  const db = getDatabase();
-  set(ref(db, "portfolio-51f67-default-rtdb/" + userId), {
-    username: "name",
-    email: "email",
-    profile_picture: "imageUrl"
-  });
-}
+// function writeUserData() {
+//   // const db = getDatabase();
+//   set(ref(database, "users/"), {
+//     username: "name",
+//     email: "email",
+//     profile_picture: "imageUrl"
+//   });
+// }
 
-writeUserData();
-
-console.log("Hello");
+console.log(database);
