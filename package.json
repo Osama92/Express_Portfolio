@@ -24,7 +24,6 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "firebase": "9.0.2",
-    "firebase-tools": "9.18.0",
     "scrollreveal": "^4.0.9"
   }
 }
