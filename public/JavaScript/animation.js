@@ -8,7 +8,7 @@ ScrollReveal().reveal(".showcase", {
 });
 ScrollReveal().reveal(".large", { delay: 500 });
 ScrollReveal().reveal(".catch, .fab, #proj_icons", {
-  delay: 1500,
+  delay: 1200,
   origin: "left",
   distance: "30px",
   opacity: 0
