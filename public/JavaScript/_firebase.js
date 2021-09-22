@@ -11,10 +11,10 @@ const firebaseConfig = initializeApp({
   measurementId: "G-PXD1C7DH9F"
 });
 
-const db = getDatabase();
+const db = getDatabase(firebaseConfig);
 
 function writeUserData(userId, name, email, imageUrl) {
-  set(ref(db, "users/" + userId), {
+  set(ref(db, "" + userId), {
     username: name,
     email: email,
     profile_picture: imageUrl
@@ -22,3 +22,4 @@ function writeUserData(userId, name, email, imageUrl) {
 }
 
 writeUserData("Dayo", "Ade", "R@gmail.com", "none");
+///console.log(writeUserData);
