@@ -32,5 +32,3 @@ const database = getDatabase();
 //     profile_picture: "imageUrl"
 //   });
 // }
-
-console.log(database);
