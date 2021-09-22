@@ -1,34 +1,14 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getDatabase, ref, set } from "firebase/database";
+import { getFirestore } from "firebase/firestore";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+const firebaseConfig = initializeApp({
+  apiKey: "AIzaSyBkfJ968njQwfQ9ezSSHNMKOhgSX8emUeQ",
+  authDomain: "portfolio-973ed.firebaseapp.com",
+  projectId: "portfolio-973ed",
+  storageBucket: "portfolio-973ed.appspot.com",
+  messagingSenderId: "526933837059",
+  appId: "1:526933837059:web:3845240d7ce7f4f93f9536",
+  measurementId: "G-PXD1C7DH9F"
+});
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyB-E4fci9q2u_yBFGa4giC2snjwuWNiTcE",
-  authDomain: "portfolio-51f67.firebaseapp.com",
-  projectId: "portfolio-51f67",
-  storageBucket: "portfolio-51f67.appspot.com",
-  messagingSenderId: "1009455212283",
-  appId: "1:1009455212283:web:7efde8d1f584c33231325e",
-  measurementId: "G-FTZNN6NBG2"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-const database = getDatabase();
-
-// function writeUserData() {
-//   // const db = getDatabase();
-//   set(ref(database, "users/"), {
-//     username: "name",
-//     email: "email",
-//     profile_picture: "imageUrl"
-//   });
-// }
+const db = getFirestore(firebaseConfig);
