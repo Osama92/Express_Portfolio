@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase } from "firebase/database";
+import { getDatabase, ref, set } from "firebase/database";
 
 const firebaseConfig = initializeApp({
   apiKey: "AIzaSyBkfJ968njQwfQ9ezSSHNMKOhgSX8emUeQ",
@@ -11,4 +11,14 @@ const firebaseConfig = initializeApp({
   measurementId: "G-PXD1C7DH9F"
 });
 
-const db = getDatabase(firebaseConfig);
+const db = getDatabase();
+
+function writeUserData(userId, name, email, imageUrl) {
+  set(ref(db, "users/" + userId), {
+    username: name,
+    email: email,
+    profile_picture: imageUrl
+  });
+}
+
+writeUserData("Dayo", "Ade", "R@gmail.com", "none");
