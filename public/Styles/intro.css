@@ -106,7 +106,6 @@ p {
 }
 .ham_holder {
   visibility: hidden;
-  display: none;
 }
 
 .fa-bars {
