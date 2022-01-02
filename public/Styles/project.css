@@ -52,6 +52,9 @@
   /* margin-top: 20px; */
   margin-bottom: 10px;
 }
+.showcase_01 h2 {
+  margin-bottom: 20px;
+}
 .showcase_02 {
   width: 110%;
   height: 20vh;
