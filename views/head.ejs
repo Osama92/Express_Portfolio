@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232ee59d%22></rect><path d=%22M59.27 50.22L59.27 50.22Q59.27 42.13 55.49 38.03Q51.71 33.94 45.41 33.94L45.41 33.94Q44.15 33.94 42.84 34.02Q41.54 34.12 40.19 34.30L40.19 34.30L40.19 65.61Q41.18 65.80 42.62 65.93Q44.06 66.06 45.32 66.06L45.32 66.06Q51.53 66.06 55.40 62.10Q59.27 58.14 59.27 50.22ZM75.47 49.95L75.47 49.95Q75.47 57.16 73.31 62.55Q71.15 67.95 67.14 71.55Q63.14 75.16 57.56 76.95Q51.98 78.75 45.23 78.75L45.23 78.75Q43.70 78.75 41.72 78.66Q39.74 78.58 37.63 78.30Q35.51 78.03 33.39 77.63Q31.28 77.22 29.48 76.50L29.48 76.50Q24.53 74.61 24.53 69.94L24.53 69.94L24.53 27.91Q24.53 26.02 25.56 24.98Q26.60 23.95 28.40 23.31L28.40 23.31Q32.27 22.05 36.59 21.65Q40.91 21.24 44.33 21.24L44.33 21.24Q51.35 21.24 57.06 22.95Q62.78 24.66 66.88 28.22Q70.97 31.77 73.22 37.17Q75.47 42.57 75.47 49.95Z%22 fill=%22%23fff%22></path></svg>" />
+    <link rel="stylesheet" href="/Styles/header.css" />
+    <link rel="stylesheet" href="/Styles/footer.css" />
+    <link rel="stylesheet" href="/Styles/intro.css" />
+    <link rel="stylesheet" href="/Styles/about.css" />
+    <link rel="stylesheet" href="/Styles/project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type='module' src="JavaScript/_firebase.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Atobiloye Usama Adedayo</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a class="logoText" href="/" id="dark">Atobiloye Usama Adedayo</a>
+            <div class="ham_holder">
+                <i class="fas fa-bars"></i>
+                <p class="sendBtn">Send</p>
+            </div>
+        </div>
+        <div class="navItems">
+            <a class="NIText" href="/about" id="dark">About</a>
+            <a class="NIText" href="/project" id="dark">Projects</a>
+            <a class="LDtoggle"><i class='bx bxs-sun'></i></a>
+
+
+        </div>
+        <div class="menuOverlay">
+            <i class='bx bx-sun'></i>
+            <a class="mobileNav" href="/">Home</a>
+            <a class="mobileNav" href="/about">About</a>
+            <a class="mobileNav" href="/project">Projects</a>
+
+        </div>
+        <div class="contactModal">
+            <div class="cmHeader">
+                <p>Get In Touch</p>
+                <h3>Schedule an Appointment</h3>
+            </div>
+            <div class="textInputs">
+                <span id='Name'>Name</span>
+                <div class="fields">
+                    <input class="NameField" type="text" placeholder="Name" required>
+                </div>
+                <span id='Email'>Email</span>
+                <div class="fields">
+                    <input class="EmailField" type="email" placeholder="Email" required>
+                </div>
+                <span id='Message'>Message</span>
+                <div class="msgField">
+                    <textarea class="MsgField" placeholder="Message" required></textarea>
+                </div>
+            </div>
+
+            <div class="closeBtn">
+                <a class="modalClose"><i class='bx bx-x bx-sm'></i></a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
