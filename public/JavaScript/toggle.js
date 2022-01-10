@@ -102,19 +102,19 @@ darkBtn2.addEventListener("click", (e) => {
 let isHidden = (overlayModal.style.display = "none");
 // Hire Btn:
 hireBtn.addEventListener("click", () => {
-  // window.location = "mailto:dhayo213@gmail.com";
-  isHidden = overlayModal.style.display = "flex";
-
-  if (isHidden === "flex") {
-    bar.style.display = "none";
-    bar.style.transition = "0.5s";
-    document.querySelector("html").style.overflow = "hidden";
-    multiBtn.style.width = "100px";
-    multiBtn.style.borderRadius = "5px 20px 5px";
-    multiBtn.style.background = "#000";
-    multiBtn.style.transition = "1s";
-    document.querySelector(".sendBtn").style.display = "block";
-  }
+   window.location = "mailto:dhayo213@gmail.com";
+  // isHidden = overlayModal.style.display = "flex";
+ // === Date changed 10/01/2022 ====///
+  // if (isHidden === "flex") {
+  //   bar.style.display = "none";
+  //   bar.style.transition = "0.5s";
+  //   document.querySelector("html").style.overflow = "hidden";
+  //   multiBtn.style.width = "100px";
+  //   multiBtn.style.borderRadius = "5px 20px 5px";
+  //   multiBtn.style.background = "#000";
+  //   multiBtn.style.transition = "1s";
+  //   document.querySelector(".sendBtn").style.display = "block";
+  // }
 });
 
 closeBtn.addEventListener("click", () => {
