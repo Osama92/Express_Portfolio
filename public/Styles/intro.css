@@ -39,7 +39,8 @@ p {
   transition: background 0.5s ease;
 }
 .greet {
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Roboto";
   color: var(--fontColor1);
 }
 .greetingView {
@@ -55,12 +56,14 @@ p {
   z-index: 3;
 }
 .emphacy {
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Roboto";
   font-size: 3rem;
   color: var(--fontColor1);
 }
 .emphacy2 {
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Roboto";
   font-size: 2rem;
   color: var(--fontColor1);
 }
@@ -88,7 +91,8 @@ p {
   background-color: #2ee59d;
   box-shadow: 0px 15px 20px rgba(15, 15, 15, 0.4);
   color: var(--fontColor2);
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Roboto";
   transform: translateY(-7px);
   letter-spacing: 0.1em;
 }

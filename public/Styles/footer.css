@@ -17,7 +17,8 @@
   min-height: 100%;
 }
 .FText {
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Roboto";
   font-size: 2rem;
 }
 .contactView {
