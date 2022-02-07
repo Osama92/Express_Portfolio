@@ -27,7 +27,8 @@
 }
 
 .logoText {
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Nunito";
   color: var(--fontColor1);
   font-size: 20px;
   cursor: pointer;
