@@ -162,6 +162,7 @@
   font-weight: 600;
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
   font-size: 20px;
   color: var(--fontColor1);
 }
@@ -220,6 +221,7 @@ textarea {
   transition: opacity ease-out 0.125s;
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
 }
 #Email {
   font-size: 0.7rem;
@@ -231,6 +233,7 @@ textarea {
   transition: opacity ease-out 0.125s;
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
 }
 #Message {
   font-size: 0.7rem;
@@ -242,6 +245,7 @@ textarea {
   transition: opacity ease-out 0.125s;
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
 }
 .MessageSection {
   font-size: 1.5rem;
@@ -252,6 +256,7 @@ textarea {
 ::placeholder {
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
 }
 input:focus::placeholder {
   color: transparent;

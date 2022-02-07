@@ -41,6 +41,7 @@ p {
 .greet {
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
   color: var(--fontColor1);
 }
 .greetingView {
@@ -58,12 +59,14 @@ p {
 .emphacy {
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
   font-size: 3rem;
   color: var(--fontColor1);
 }
 .emphacy2 {
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
   font-size: 2rem;
   color: var(--fontColor1);
 }
@@ -93,6 +96,7 @@ p {
   color: var(--fontColor2);
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
   transform: translateY(-7px);
   letter-spacing: 0.1em;
 }

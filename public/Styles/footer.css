@@ -19,6 +19,7 @@
 .FText {
   /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
+  font-weight: 700;
   font-size: 2rem;
 }
 .contactView {

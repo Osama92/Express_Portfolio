@@ -5,7 +5,9 @@
   --background2: #171717;
 }
 h1 {
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Roboto";
+  font-weight: 700;
   font-size: 40px;
 }
 .mySelf {
@@ -71,8 +73,10 @@ h1 {
   height: 50%;
 }
 .emphacy3 {
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Roboto";
   font-size: 20px;
+  font-weight: 700;
   cursor: pointer;
 }
 .emphacy3 a {
