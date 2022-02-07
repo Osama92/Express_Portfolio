@@ -24,6 +24,7 @@
 .logo {
   min-height: 40px;
   min-width: 30%;
+  display: flex;
 }
 
 .logoText {
@@ -35,6 +36,8 @@
   cursor: pointer;
   letter-spacing: 0.1em;
   text-decoration: none;
+  height: 70%;
+  margin-top: 7px;
 }
 
 .navItems {
