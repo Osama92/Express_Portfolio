@@ -17,7 +17,6 @@
   min-height: 100%;
 }
 .FText {
-  /* font-family: "Pacifico", cursive; */
   font-family: "Roboto";
   font-weight: 700;
   font-size: 2rem;
@@ -56,7 +55,6 @@
   z-index: 1000;
 }
 #proj_icons:hover {
-  /* transform: translateY(-7px); */
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #2ee59d;
   border-radius: 10px;
