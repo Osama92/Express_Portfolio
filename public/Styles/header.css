@@ -57,6 +57,15 @@
   letter-spacing: 0.15em;
   color: var(--fontColor1);
 }
+.NIText_Resume {
+  font-family: "Roboto", sans-serif;
+  margin-left: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  color: rgb(46, 229, 157);
+}
 
 .NIText:after {
   background: none repeat scroll 0 0 transparent;
