@@ -119,6 +119,9 @@
   font-size: x-large;
   font-weight: 700;
 }
+.mobileNav {
+  color: rgb(46, 229, 157);
+}
 
 .contactModal {
   width: 90%;
